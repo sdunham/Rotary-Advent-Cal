@@ -1,0 +1,14 @@
+#calendar { position: relative; top:165px; width: 600px; height: 775px; margin:auto; }
+#calContent { position:relative; left:115px; top:-38px; width:370px; max-height:465px; background:#78824F; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; color:#fff; font-size:16px; padding:15px; }
+.pixel { position: absolute; width: 150px; height: 150px; background: #999; -moz-border-radius: 75px; -webkit-border-radius: 75px; border-radius: 75px; top: -15px; left: 185px; text-align:center; color:#ccc; line-height:65px; cursor:pointer; opacity:0.5; }
+.pixel.adventAllowed.hoverAllowed:hover { -moz-transition: 0.25s; -webkit-transition: 0.25s; -o-transition: 0.25s; transition: 0.25s; box-shadow:0 0 3px #333; }
+.pixel.adventAllowed.adventSelected { background: #78824F; opacity:1; color:#000; }
+.pixel.adventAllowed { background: #BCC1A7; opacity:1; color:#000; }
+.pixel,
+#contentTitle,
+#contentText ,
+#contentLink { font-family: Georgia, Times, "Times New Roman", serif; }
+#contentLink,
+#contentText { font-size:13px; }
+#contentTitle { font-size:22px; }
+#contentLink { color:#BCC1A7; }
