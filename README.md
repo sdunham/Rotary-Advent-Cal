@@ -1,6 +1,6 @@
 Rotary Advent Calendar
 =================
-An advent-style calendar with a UI inspired by rotary phones
+An advent-style calendar with a UI inspired by rotary phones. The rotary interface is powered by jQuery and the [Path jQuery plugin](https://github.com/weepy/jquery.path).
 
 Demo: http://sdunham.github.com/Rotary-Advent-Cal/
 
