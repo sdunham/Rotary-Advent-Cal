@@ -1,6 +1,6 @@
 var curDate = new Date(); //Today's date
 var month = curDate.getMonth(); //Zero-based month number the calendar is to be used (0=January, 1=February,..., 11=December).
-var year = 2012; //4-digit year the calendar is to be used.
+var year = 2013; //4-digit year the calendar is to be used.
 var numDays; //Number of days in the given month
 var isLeap = new Date(year,1,29).getDate() == 29; //Is this a leap year?
 var selected = 0; //Currently selected day
